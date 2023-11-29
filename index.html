@@ -5,53 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mindwave</title>
         <link rel="stylesheet" href="style.css">
-        <!DOCTYPE html>
-    <script>
-        function handleSubmit(event) {
-            event.preventDefault(); // Prevent the default form submission behavior
-            // Get the value entered in the text field
-            var inputValue = document.getElementById('myTextField').value;
-            // Display the entered value on the page
-            document.getElementById('result').innerText = "Entered Text: " + inputValue;
-        }
-    </script>
     </head>
     <body>
-        <div class="container">
-            <header>
-                <h1>MIND WAVE</h1>
-                <nav>
-                    <ul>
-                        <li><img class="home-icon" src="images/home.png" alt=""><a href="#">Home</a></li>
-                        <li><img class="not-icon" src="images/notification.png"><a href="#">Notifications</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>2
-            <form onsubmit="handleSubmit(event)">
-                <label for="myTextField">Enter Text:</label>
-                <input type="text" id="myTextField" name="myTextField">
-                <input type="submit" value="Submit">
-            </form>
-            <div id="result"></div>
-        <main>
-            <form class="search-form" action="#" method="get">
-                <input type="text" name="q" placeholder="Thoughts">
-                <input type="submit" value="Search">
-            </form>
-            <div class="post-container">
-                <h2>What's on your mind</h2>
-                <form id="postForm">
-                    <textarea id="postContent" name="post_content" placeholder=""></textarea>
-                    <input type="file" id="postImage" accept="image/*">
-                    <input type="button" value="Post" onclick="postToServer()">
-                </form>
+        <div style="width: 100%; height: 100%; position: relative; background: #010A16">
+            <div style="left: 41px; top: 59px; position: absolute; color: white; font-size: 36px; font-family: KoHo; font-weight: 700; word-wrap: break-word">MIND WAVE</div>
+            <div style="width: 1117px; height: 0px; left: 301px; top: 0px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; border: 1px white solid"></div>
+            <div style="width: 1139px; height: 0px; left: 301px; top: 173px; position: absolute; border: 1px white solid"></div>
+            <div style="width: 1139px; height: 0px; left: 301px; top: 894px; position: absolute; border: 1px white solid"></div>
+            <img style="width: 44px; height: 44px; left: 339px; top: 53px; position: absolute; border-radius: 9999px" src="https://via.placeholder.com/44x44" />
+            <div style="width: 44px; height: 44px; left: 339px; top: 210px; position: absolute; background: white; border-radius: 9999px"></div>
+            <img style="width: 64px; height: 64px; left: 41px; top: 1014px; position: absolute; border-radius: 9999px" src="https://via.placeholder.com/64x64" />
+            <div style="left: 398px; top: 63px; position: absolute; color: #546C8E; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 26.40px; word-wrap: break-word">Whats on your mind?!</div>
+            <div style="left: 398px; top: 220px; position: absolute; color: #E6E9EE; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 26.40px; word-wrap: break-word">@anonymous 219</div>
+            <div style="left: 85px; top: 180px; position: absolute; color: white; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 26.40px; word-wrap: break-word">Home</div>
+            <div style="left: 85px; top: 243px; position: absolute; color: white; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 26.40px; word-wrap: break-word">Notificatons</div>
+            <div style="left: 405px; top: 266px; position: absolute; color: #E6E9EE; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 16.80px; word-wrap: break-word">Soo am too depressed this days I feel like killing my self life is really too good that I want to see how days can be bad</div>
+            <div style="left: 118px; top: 1029px; position: absolute; color: #E6E9EE; font-size: 14px; font-family: Roboto; font-weight: 700; line-height: 16.80px; word-wrap: break-word">Gahima Aristote</div>
+            <div style="left: 119px; top: 1046px; position: absolute; color: #B0BBCB; font-size: 12px; font-family: Roboto; font-weight: 400; line-height: 14.40px; word-wrap: break-word">@anonymous2010</div>
+            <div style="padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 1323px; top: 106px; position: absolute; background: #0F4E78; border-radius: 13px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <div style="color: #E6E9EE; font-size: 22px; font-family: Roboto; font-weight: 700; line-height: 26.40px; word-wrap: break-word">Post</div>
             </div>
-            <!--display posts -->
-            <div class="post-container" id="postContainer"></div>
-        </main>
-        <footer>
-            <p>&copy; 2023 Mindwave. All rights reserved.</p>
-        </footer>
+            <div style="width: 24px; height: 18px; left: 398px; top: 135px; position: absolute; background: white"></div>
+            <div style="width: 20px; height: 20px; left: 442px; top: 134px; position: absolute; background: white; border: 0.50px white solid"></div>
+            <div style="width: 44px; height: 44px; left: 339px; top: 915px; position: absolute; background: white; border-radius: 9999px"></div>
+            <div style="left: 398px; top: 925px; position: absolute; color: #E6E9EE; font-size: 22px; font-family: Roboto; font-weight: 400; line-height: 26.40px; word-wrap: break-word">@anonymous 219</div>
+            <div style="left: 405px; top: 971px; position: absolute; color: #E6E9EE; font-size: 14px; font-family: Roboto; font-weight: 400; line-height: 16.80px; word-wrap: break-word">Soo am too depressed this days I feel like killing my self life is really too good that I want to see how days can be bad</div>
+            <img style="width: 876px; height: 511px; left: 408px; top: 1022px; position: absolute; border-radius: 30px" src="https://via.placeholder.com/876x511" />
+            <div style="width: 24.89px; height: 28px; left: 41px; top: 173px; position: absolute; background: white"></div>
+            <div style="width: 25px; height: 29px; left: 41px; top: 243px; position: absolute; background: white"></div>
+            <img style="width: 876px; height: 511px; left: 408px; top: 317px; position: absolute; border-radius: 30px" src="https://via.placeholder.com/876x511" />
+        </div>
     </body>
 </html>
